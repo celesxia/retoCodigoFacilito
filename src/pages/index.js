@@ -26,7 +26,7 @@ const Index = ({ pets }) => {
               <p className="pet-name">{pet.name}</p>
               <p className="owner">Owner: {pet.owner_name}</p>
 
-              {/* Extra Pet Info: Likes and Dislikes */}
+              {/* Extra Pet Info: Me gusta y no me gusta */}
               <div className="info">
                 <p className="label">MeGusta</p>
                 <ul>
