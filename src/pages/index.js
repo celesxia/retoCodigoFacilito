@@ -28,7 +28,7 @@ const Index = ({ pets }) => {
 
               {/* Extra Pet Info: Likes and Dislikes */}
               <div className="likes info">
-                <p className="label">Likes</p>
+                <p className="label">MeGusta</p>
                 <ul>
                   {pet.likes.map((data, index) => (
                     <li key={index}>{data} </li>
