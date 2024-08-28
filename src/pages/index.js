@@ -27,7 +27,7 @@ const Index = ({ pets }) => {
               <p className="owner">Owner: {pet.owner_name}</p>
 
               {/* Extra Pet Info: Likes and Dislikes */}
-              <div className="likes info">
+              <div className="info">
                 <p className="label">MeGusta</p>
                 <ul>
                   {pet.likes.map((data, index) => (
