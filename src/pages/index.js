@@ -36,7 +36,7 @@ const Index = ({ pets }) => {
                 </ul>
               </div>
               <div className="dislikes info">
-                <p className="label">Dislikes</p>
+                <p className="label">NoMeGusta</p>
                 <ul>
                   {pet.dislikes.map((data, index) => (
                     <li key={index}>{data} </li>
